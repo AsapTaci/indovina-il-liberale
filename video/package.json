@@ -1,0 +1,31 @@
+{
+  "name": "roma-bruxelles-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grafica animata Remotion: mappa d'Europa con volo Roma → Bruxelles",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render RomaBruxelles out/roma-bruxelles.mp4 --codec h264 --crf 16",
+    "still": "remotion still RomaBruxelles out/frame.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.541",
+    "@remotion/google-fonts": "^4.0.541",
+    "@remotion/paths": "^4.0.541",
+    "d3-geo": "^3.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.541",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/geojson": "^7946.0.16",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
+    "typescript": "^7.0.2"
+  }
+}
